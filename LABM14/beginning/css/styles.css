@@ -1,0 +1,75 @@
+
+.navbar {
+    background-color: #f8f9fa !important;
+    padding: 18px 0;
+}
+
+.navbar-brand img {
+    max-height: 65px;
+}
+
+.carousel-item img {
+    height: 420px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.carousel-caption {
+    bottom: 30px;
+}
+
+.carousel-caption h5,
+.carousel-caption p {
+    color: white;
+    text-shadow: 1px 1px 4px rgba(0,0,0,0.6);
+}
+
+main,
+section {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.card-header,
+.card-img-top {
+    background-color: #f7c978;
+}
+
+.btn-primary,
+.btn-warning,
+.btn-outline-primary {
+    background-color: #e7a04b !important;
+    border-color: #e7a04b !important;
+    color: white !important;
+}
+
+.testimonials,
+#testimonials {
+    background-color: #23345d !important;
+    color: white;
+    padding: 45px 55px;
+    margin-top: 50px;
+}
+
+.testimonials .nav-tabs,
+#testimonials .nav-tabs {
+    border-bottom: 1px solid rgba(255,255,255,0.6);
+}
+
+.testimonials .nav-link,
+#testimonials .nav-link {
+    color: white;
+}
+
+.testimonials .nav-link.active,
+#testimonials .nav-link.active {
+    color: #23345d;
+    background-color: white;
+    border-color: white;
+}
+
+footer {
+    background-color: #f8f9fa;
+    padding: 35px 0;
+    text-align: center;
+}
